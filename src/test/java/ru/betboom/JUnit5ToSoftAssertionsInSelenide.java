@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class JUnit5ToSoftAssertionsInSelenide {
     @Test
-    void SelenideSoftAssertionsHaveJunit5Example() {
+    void selenideSoftAssertionsHaveJunit5Example() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $("#wiki-pages-filter").setValue("SoftAssertions").pressEnter();
